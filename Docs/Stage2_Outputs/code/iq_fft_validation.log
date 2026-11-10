@@ -1,0 +1,7 @@
+﻿PASS: N=4096, signed frequencies, known amplitudes, monotonic shifted axis, inverse FFT
+PASS: N=4095, signed frequencies, known amplitudes, monotonic shifted axis, inverse FFT
+PASS: all-zero signal gives finite -240 dB, no log10(0)
+PASS: zero, negative, NaN, and infinite sampling rates rejected
+PASS: actual CSV peak frequencies and Parseval normalization
+PASS: project-root output path and existing data fallback
+All numerical checks passed.

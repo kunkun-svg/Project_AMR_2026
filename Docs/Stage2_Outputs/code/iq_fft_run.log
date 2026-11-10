@@ -1,0 +1,12 @@
+﻿Python 解释器：D:\Anaconda3\envs\amc310\python.exe
+Python 版本：3.10.22
+NumPy：2.2.6；Matplotlib：3.10.9
+实际输入：D:\Project_AMR_2026\Docs\Stage2\Data\Stage2\sample_iq.csv
+I/Q 数据形状：(4096, 2)；复数信号形状：(4096,)
+采样率：4096 Hz；N=4096；记录时长：1 s
+频率分辨率 df = fs/N = 1 Hz
+实际计算的两个最高频谱峰（按幅度降序）：
+  峰 1：+300.000000 Hz，归一化幅度=1.000116827，幅度=+0.001015 dB re 1
+  峰 2：-700.000000 Hz，归一化幅度=0.500250419，幅度=-6.016251 dB re 1
+图片已保存：D:\Project_AMR_2026\Docs\Stage2_Outputs\iq_fft.png
+预设频率核对：通过（预期 +300 Hz、-700 Hz；容差 0.5 Hz）
